@@ -204,28 +204,6 @@
     }
   });
 
- // Sélectionner le bouton et le body
-const themeToggleButton = document.getElementById('theme-toggle');
-const body = document.body;
-
-// Vérifier si le thème est déjà enregistré dans localStorage
-const currentTheme = localStorage.getItem('theme') || 'light-mode';
-body.classList.add(currentTheme);  // Appliquer le thème sauvegardé (clair ou sombre)
-
-// Ajouter l'événement de changement de thème au bouton
-themeToggleButton.addEventListener('click', () => {
-    if (body.classList.contains('light-mode')) {
-        body.classList.replace('light-mode', 'dark-mode');
-        themeToggleButton.innerHTML = `<i class="bi bi-sun"></i>`; // Icône soleil pour le mode sombre
-        localStorage.setItem('theme', 'dark-mode'); // Sauvegarder le thème sombre
-    } else {
-        body.classList.replace('dark-mode', 'light-mode');
-        themeToggleButton.innerHTML = `<i class="bi bi-moon"></i>`; // Icône lune pour le mode clair
-        localStorage.setItem('theme', 'light-mode'); // Sauvegarder le thème clair
-    }
-});
-
-
   /**
    * Navmenu Scrollspy
    */
