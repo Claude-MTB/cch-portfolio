@@ -12,11 +12,14 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --default-font: "Merriweather",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
-  --nav-font: "PT Serif",  sans-serif;
+  --nav-font: "Poppins",  sans-serif;
   h2, .custom-font {
     font-family: 'Big Shoulders Inline', sans-serif;
+  .rock-salt {
+    font-family: 'Rock Salt', cursive;
+  }
 }
 }
 
